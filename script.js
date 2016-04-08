@@ -11,7 +11,13 @@
                 'bio': $('#bio').val(),
             },
               function(data){
-                    $('#response').html(data);
+                    if(data='false'){
+                        $('#response').html('Неправильные данные');
+                    }
+                    else{
+                        $('#response').html('Принято');     
+                    }
+                    //$('#response').html(data);
                 });
             });
             event.preventDefault();
