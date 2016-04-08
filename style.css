@@ -1,56 +1,9 @@
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px;
 }
 div{
-    border: 1px solid black;
+
     width: 600px;
-}
-ul li{
-
-	display: inline;
-    font-size: 18px;
-    font-weight: bold;
-	display: inline;
-	margin: 0px 1px 0px 1px;
-	padding: 0 3px 2px 0px;
-	background: lightgray;
-	border: 1px solid gray;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    cursor: pointer;
-}
-li.active{
-    background-color: azure;
-    border-bottom: 1px solid azure;
-
-}
-#menu{
-    border: none;
-    padding: 0px;
-	margin: 10px 1px 0px 10px;
-    height: 25px;
-    width: 624px;
-}
-#list{
-    height: 25px;
-    line-height: 27px;
-    
-    
-}
-.articles{
-    padding: 12px;
-    border: 1px solid gray;
-    background-color: azure;
-    display: none;
-    margin-left: 11px;
-    
-}
-div.active{
-    display: block;
-}
-p{
-    text-indent: 20px;
-    text-align: justify;
 }
